@@ -7,8 +7,7 @@ use Closure;
 use Illuminate\Contracts\Foundation\Application;
 
 /**
- * Class LocalizationMiddleware
- * @package App\Http\Middleware
+ *
  */
 class LanguageMiddleware
 {
@@ -34,6 +33,8 @@ class LanguageMiddleware
     {
 
         $locale = $this->languageService->execute($request, $this->app);
+
+        $request->headers->set('Content-Language', $locale);
 
         // get the response after the request is done
         $response = $next($request);

@@ -41,9 +41,11 @@ php artisan vendor:publish --provider="Cirelramos\Languages\Providers\ServicePro
 add provider in config/app.php
 
 ```php
-    'providers' => [
-        Cirelramos\Languages\Providers\QueryLogProvider::class,
-   ]
+        'api' => [
+        // .
+        // .
+            Cirelramos\Languages\Middlewares\LanguageMiddleware::class,
+        ],
 ```
 
 
