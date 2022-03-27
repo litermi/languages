@@ -15,8 +15,10 @@ return [
      * example:
      */
     'available' => [
-        'en',
-        'es'
+        'en' => 'English',
+        'es' => 'Spanish',
+        'pt' => 'Portuguese',
+        'fr' => 'French',
     ],
 
 ];
