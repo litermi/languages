@@ -1,4 +1,4 @@
-# languages
+# Languages
 
 [![Software License][ico-license]](LICENSE.md)
 
