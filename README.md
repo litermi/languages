@@ -6,6 +6,7 @@
 
 The `languages` package to get header `content-language` and set value to life of request .
 
+##### [Tutorial how create composer package](https://cirelramos.blogspot.com/2022/04/how-create-composer-package.html)
 
 ## Installation
 
