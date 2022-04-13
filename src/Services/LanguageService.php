@@ -1,6 +1,6 @@
 <?php
 
-namespace Cirelramos\Languages\Services;
+namespace Litermi\Languages\Services;
 
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\App;

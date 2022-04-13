@@ -1,8 +1,8 @@
 <?php
 
-namespace Cirelramos\Languages\Providers;
+namespace Litermi\Languages\Providers;
 
-use Cirelramos\Languages\Services\SendLogConsoleService;
+use Litermi\Languages\Services\SendLogConsoleService;
 use DateTime;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\ServiceProvider;

@@ -10,9 +10,9 @@ The `languages` package to get header `content-language` and set value to life o
 
 ## Installation
 
-Require the `cirelramos/languages` package in your `composer.json` and update your dependencies:
+Require the `litermi/languages` package in your `composer.json` and update your dependencies:
 ```sh
-composer require cirelramos/languages
+composer require litermi/languages
 ```
 
 
@@ -23,14 +23,14 @@ set provider
 ```php
 'providers' => [
     // ...
-    Cirelramos\Languages\Providers\ServiceProvider::class,
+    Litermi\Languages\Providers\ServiceProvider::class,
 ],
 ```
 
 
 The defaults are set in `config/languages.php`. Publish the config to copy the file to your own config:
 ```sh
-php artisan vendor:publish --provider="Cirelramos\Languages\Providers\ServiceProvider"
+php artisan vendor:publish --provider="Litermi\Languages\Providers\ServiceProvider"
 ```
 
 > **Note:** this is necessary to yo can change default config
@@ -45,7 +45,7 @@ add provider in config/app.php
         'api' => [
         // .
         // .
-            Cirelramos\Languages\Middlewares\LanguageMiddleware::class,
+            Litermi\Languages\Middlewares\LanguageMiddleware::class,
         ],
 ```
 

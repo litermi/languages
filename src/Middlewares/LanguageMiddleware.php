@@ -1,8 +1,8 @@
 <?php
 
-namespace Cirelramos\Languages\Middlewares;
+namespace Litermi\Languages\Middlewares;
 
-use Cirelramos\Languages\Services\LanguageService;
+use Litermi\Languages\Services\LanguageService;
 use Closure;
 use Illuminate\Contracts\Foundation\Application;
 

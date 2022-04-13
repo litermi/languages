@@ -1,5 +1,5 @@
 {
-    "name": "cirelramos/languages",
+    "name": "litermi/languages",
     "description": "package set language to life of request",
     "type": "library",
     "license": "MIT",
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Cirelramos\\Languages\\": "src/"
+            "Litermi\\Languages\\": "src/"
         }
     },
     "extra": {
