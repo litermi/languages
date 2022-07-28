@@ -23,7 +23,9 @@ class LanguageService
         // read the language from the request header
         if(empty($language) === true){
             $locale      = $request->header('Content-Language');
-            $localeForce = $request->header('force-not-change-language');
+            $headerName = config('languages.header_force_not_change_language_name');
+            $headerName = empty($headerName) ?  'force-not-change-language' : $headerName;
+            $localeForce = $request->header($headerName);
         }
 
         if(empty($language) === false){
