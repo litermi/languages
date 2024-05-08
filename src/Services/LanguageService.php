@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\App;
  */
 class LanguageService
 {
+
     /**
      * @param $request
      * @param $app
